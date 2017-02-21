@@ -47,8 +47,8 @@ public class TextContainer {
 	 * TextContainer-Object contains different representations of a text.
 	 * 
 	 * @param filePath - the filepath/the string
-	 * @param isFilePath = true - then the String is seen as relative filepath.
-	 * @param isFilePath = false - then the String is seen as the text.
+	 * @param isFilepath = true - then the String is seen as relative filepath.
+	 * @param isFilepath = false - then the String is seen as the text.
 	 * 
 	 */
 	public TextContainer(String filePath, boolean isFilepath) {

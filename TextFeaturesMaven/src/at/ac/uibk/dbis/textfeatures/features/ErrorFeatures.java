@@ -40,7 +40,7 @@ public class ErrorFeatures {
 	 * Api</a>.<br>
 	 * To find out what each Rule stands for, also visit this link.
 	 * 
-	 * @param TextContainer
+	 * @param tc
 	 *            - contains different representations of the text.
 	 * @param british
 	 *            = true, use British English

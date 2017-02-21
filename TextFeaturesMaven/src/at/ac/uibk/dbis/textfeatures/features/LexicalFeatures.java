@@ -33,7 +33,7 @@ public class LexicalFeatures {
 	/**
 	 * LexicalFeatures-Object allows you to calculate diverse lexical features.
 	 * 
-	 * @param TextContainer
+	 * @param tc
 	 *            - contains different representations of the text.
 	 * 
 	 */
@@ -655,7 +655,7 @@ public class LexicalFeatures {
 	public double compressionTime(int rounds) throws Exception {
 		String text = textContainer.getTextAsString();
 
-		final File f = new File("/Users/balthazur/Programming/workspace/TextFeatures/test.zip");
+		final File f = new File("test.zip");
 		final ZipOutputStream out = new ZipOutputStream(new FileOutputStream(f));
 		out.setLevel(9);
 		ZipEntry e = new ZipEntry("mytext.txt");
